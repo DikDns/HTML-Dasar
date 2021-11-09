@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>09 - Form</title>
+</head>
+<body>
+
+<!-- 
+	Element Tag Form:
+		input, textarea, select, button, label
+
+		Attribut input:
+			text, password, radio, checkbox, (tidak menggunakan input tapi bisa => sumbit, reset, button)
+ -->
+
+	<form>
+
+		<table>
+
+			<tr>
+				<td align="right">
+					<label for="text">Text :</label>
+				</td>
+				<td>
+					<input type="text" id="text">
+				</td>
+			</tr>
+				<td align="right">
+					<label for="password">Password :</label>
+				</td>
+				<td>
+					<input type="password" id="password">
+				</td>
+			<tr>
+				<td align="middle" colspan="2">
+					<label for="radio1">Radio 1 </label><input type="radio" name="radio" id="radio1">
+					<label for="radio2">Radio 2 </label><input type="radio" name="radio" id="radio2">
+				</td>
+			</tr>
+				<td align="middle" colspan="2">
+					<label for="checkbox1">Checkbox 1</label><input type="checkbox" id="checkbox1">
+					<label for="checkbox2">Checkbox 2</label><input type="checkbox" id="checkbox2">
+				</td>
+			<tr>
+				<td align="right">
+					<label for="combobox">Combo Box :</label>
+				</td>
+				<td>
+					<select id="combobox">
+						<option>Option 1</option>
+						<option>Option 2</option>
+						<option>Option 3</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="right">
+					<label for="textarea">Text Area :</label>
+				</td>
+				<td>
+					<textarea id="textarea"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="middle" colspan="2">
+					<button type="submit"> Button Submit!</button>
+				</td>
+			</tr>
+
+		</table>
+
+	</form>
+
+</body>
+</html>
